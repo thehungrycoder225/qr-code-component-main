@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+  background-color: hsl(212, 45%, 89%);
+}
+
+img {
+  max-width: 90%;
+  border-radius: 10px;
+}
+
+h2 {
+  margin: 1rem auto;
+  color: hsl(218, 44%, 22%);
+}
+
+p {
+  margin-bottom: 1rem;
+  color: hsl(220, 15%, 55%);
+  padding: 0 2rem 0 1rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.wrapper {
+  margin-top: 15rem;
+  width: 100%;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1rem;
+  box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.15);
+  margin: 0 auto;
+  max-width: 23.4375rem;
+  text-align: center;
+  padding: 1rem 0rem;
+}
+
+.card-body {
+  padding: 0 2rem;
+}
+
+@media (max-width: 375px) {
+  body {
+    padding: 0 1rem;
+  }
+
+  p {
+    padding: 0 0.5rem 0 0.5rem;
+  }
+}
