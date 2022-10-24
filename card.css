@@ -18,14 +18,14 @@ img {
 }
 
 h2 {
-  margin: 1rem 1rem;
+  margin: 1rem 0.5rem;
   color: hsl(218, 44%, 22%);
 }
 
 p {
   margin-bottom: 1rem;
   color: hsl(220, 15%, 55%);
-  padding: 0 2rem 0 1rem;
+  padding: 0 2rem 0 0.7rem;
 }
 
 .attribution {
@@ -43,7 +43,7 @@ p {
   border-radius: 1rem;
   box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.15);
   margin: 0 auto;
-  max-width: 23rem;
+  max-width: 20rem;
   text-align: center;
   padding: 1rem 1rem;
 }
